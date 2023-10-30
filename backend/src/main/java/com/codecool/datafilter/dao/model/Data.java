@@ -18,7 +18,7 @@ public class Data {
 
     private String item;
 
-    private int netValue;
+    private double netValue;
 
     private double vat;
 
