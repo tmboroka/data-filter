@@ -1,0 +1,32 @@
+body {
+    background:  #5769c7;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.login-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-button {
+   margin-top: 20px;
+   height: 40px;
+   width: 120px;
+   margin-left: 10px;
+   margin-right: 10px;
+   justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 13px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+.login-button:hover {
+    background-color: rgb(198, 218, 255);
+}
+
+
