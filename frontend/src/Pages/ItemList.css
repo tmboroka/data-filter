@@ -1,0 +1,42 @@
+.clear-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.clear-button{
+    display: flex;
+    width: 158px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 46px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 13px 0 rgba(0, 0, 0, 0.3);
+}
+
+.clear-button:hover {
+    background-color: rgb(198, 218, 255);
+}
+
+.export-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.export-button{
+    display: flex;
+    width: 158px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 46px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 13px 0 rgba(0, 0, 0, 0.3);
+}
+
+.export-button:hover {
+    background-color: rgb(198, 218, 255);
+}
