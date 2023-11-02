@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/data")
 public class DataController {
-    
+
     private DataService dataService;
 
     @Autowired

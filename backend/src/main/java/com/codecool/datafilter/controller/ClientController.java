@@ -3,7 +3,6 @@ package com.codecool.datafilter.controller;
 import com.codecool.datafilter.controller.dto.newClientDTO;
 import com.codecool.datafilter.dao.model.Client;
 import com.codecool.datafilter.service.ClientService;
-import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,7 +23,7 @@ public class ClientController {
         return ResponseEntity.ok().build();
     }
 
-    @GetMapping("/client/{name}")
+    @GetMapping("/{name}")
     public Client getClientByUsername(@PathVariable String name) {
         return clientService.getClientByUsername(name);
     }
